@@ -82,6 +82,9 @@ class Batch(models.Model):
         managed = False
         db_table = 'tb_weigh_batch'
 
+    def __str__(self):
+        return self.batch_number
+
 
 class CarControl(models.Model):
     id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
