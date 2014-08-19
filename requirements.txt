@@ -1,0 +1,4 @@
+Django==1.6.5
+Pillow==2.4.0
+django-mssql==1.6b1
+pywin32==219
